@@ -1,0 +1,50 @@
+/**
+ * Pro SEO Master - Gutenberg Sidebar Styles
+ */
+
+/* Sidebar Panel Styles */
+.psm-sidebar-score {
+    width: 100%;
+}
+
+.psm-score-dot {
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.psm-sidebar-keyphrase {
+    padding: 8px 12px;
+    background: #f9f9f9;
+    border-left: 3px solid #0073aa;
+    border-radius: 2px;
+}
+
+/* Ensure proper spacing in sidebar */
+.edit-post-sidebar .psm-sidebar-score {
+    margin-bottom: 0;
+}
+
+/* Button styling in sidebar */
+.edit-post-sidebar .components-button.is-primary {
+    justify-content: center;
+}
+
+/* Panel row spacing */
+.edit-post-sidebar .components-panel__row {
+    margin-top: 0;
+}
+
+/* Expandable sections hover effect */
+.edit-post-sidebar button:hover {
+    background: #f0f0f0;
+}
+
+/* Links in sidebar */
+.edit-post-sidebar a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.edit-post-sidebar a:hover {
+    text-decoration: underline;
+}
