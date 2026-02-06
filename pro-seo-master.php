@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Pro SEO Master
+ * Plugin URI: https://example.com/pro-seo-master
  * Description: A comprehensive SEO plugin with advanced content analysis and Google autocomplete for focus keyphrases. Optimize your content for search engines with real-time analysis, snippet preview, XML sitemaps, breadcrumbs, and schema markup.
  * Version: 1.4.0
  * Author: Prosanjit Dhar
- * Author URI: https://www.linkedin.com/in/prosanjit-dhar-122b43237/
+ * Author URI: https://example.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pro-seo-master
- * Domain Path: /languages
  */
 
 // Exit if accessed directly
@@ -101,7 +101,8 @@ class Pro_SEO_Master {
      * Initialize
      */
     public function init() {
-        load_plugin_textdomain('pro-seo-master', false, dirname(PSM_PLUGIN_BASENAME) . '/languages');
+        // Translation loading is handled automatically by WordPress 4.6+
+        // No need to call load_plugin_textdomain() manually
     }
     
     /**
