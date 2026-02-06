@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Pro SEO Master
- * Plugin URI: https://example.com/pro-seo-master
+ * Plugin URI: https://open.substack.com/pub/prosanwrites/p/introducing-pro-seo-master?utm_campaign=post-expanded-share&utm_medium=web
  * Description: A comprehensive SEO plugin with advanced content analysis and Google autocomplete for focus keyphrases. Optimize your content for search engines with real-time analysis, snippet preview, XML sitemaps, breadcrumbs, and schema markup.
  * Version: 1.4.0
  * Author: Prosanjit Dhar
- * Author URI: https://example.com
+ * Author URI: https://substack.com/@prosanwrites
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pro-seo-master
