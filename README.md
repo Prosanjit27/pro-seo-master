@@ -1,9 +1,9 @@
 === Pro SEO Master ===
 Contributors: prosanjitdhar
-Tags: seo, google, search optimization, meta, sitemap
+Tags: seo, google, search engine optimization, meta, sitemap, schema, breadcrumbs, keywords
 Requires at least: 5.0
-Tested up to: 6.9
-Stable tag: 1.4.1
+Tested up to: 6.7
+Stable tag: 1.4.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -197,16 +197,6 @@ Higher scores = easier to read = better for most audiences.
 7. Site-wide settings page
 
 == Changelog ==
-
-= 1.4.1 - 2024-02-04 =
-* Fixed all _e() functions to use esc_html_e() for proper escaping
-* Added translator comments for all placeholder strings
-* Fixed ordered placeholders in translation strings (%1$d, %2$d format)
-* Added proper escaping for gmdate() and get_the_modified_date() outputs
-* Fixed breadcrumbs output escaping with wp_kses_post()
-* Fixed home_url() escaping with esc_url()
-* Improved WordPress Coding Standards compliance
-* All Plugin Check errors resolved
 
 = 1.4.0 - 2024-02-02 =
 * Enhanced Gutenberg sidebar with expandable sections
